@@ -1,0 +1,19 @@
+Id: google.drive-file-stream
+Name: Google Drive File Stream
+Publisher: Google
+Version: 39.0.10
+AppMoniker: google-drive-file-stream
+
+License: Google Drive Additional Terms of Service
+LicenseUrl: https://www.google.com/chrome/terms/
+
+# ======================= Installers  ==================
+
+Installers:
+  - Arch: x64
+    InstallerType: exe
+    Url: https://dl.google.com/drive-file-stream/GoogleDriveFSSetup.exe
+    Sha256: 7DB92298ACAB88EE3D37A5FDA7E9CEDC0F10BBE7B140D93ADDA856525F552286
+    Switches: 
+      Silent: "--silent"
+      SilentWithProgress: "--silent"
